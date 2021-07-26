@@ -116,6 +116,7 @@ nano yarn-site.xml
 
 
 #Format Namenode
+cd
 hdfs namenode -format
 
 start-all.sh 
