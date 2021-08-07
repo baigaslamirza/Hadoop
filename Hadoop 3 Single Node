@@ -53,7 +53,11 @@ cd /usr/local/hadoop/etc/hadoop/
 
 #Update hadoop-env.sh
 nano hadoop-env.sh
+#Ubuntu 16
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export HADOOP_LOG_DIR=/var/log/hadoop
+#Ubuntu 20
+export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64
 export HADOOP_LOG_DIR=/var/log/hadoop
 
 sudo mkdir /var/log/hadoop
