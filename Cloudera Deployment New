@@ -29,9 +29,9 @@ if test -f /sys/kernel/mm/transparent_hugepage/defrag; then
     echo never > /sys/kernel/mm/transparent_hugepage/defrag
 fi
 
-$sudo -i
+$ sudo -i
 
-$source /etc/rc.local 
+$ source /etc/rc.local 
 
 -----*** Install NTP ***-----
 $ sudo apt-get install ntp -y 
