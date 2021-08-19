@@ -189,6 +189,9 @@ $ sudo service cloudera-scm-server restart
 
 Continue installation on WebUi
 
+---** To Stop Cloudera manager Server **---
+$ sudo service cloudera-scm-server stop
+
 
 ## Run a test job
 
